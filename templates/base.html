@@ -1,7 +1,7 @@
 {% load staticfiles %}
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
     <title>{% block title %} {% endblock %}</title>
@@ -18,5 +18,7 @@
 {% include 'footer.html' %}
 
 {% block javacript %} {% endblock %}
+
+<script src="{% static 'js/bootstrap.js' %}"></script>
 </body>
 </html>
